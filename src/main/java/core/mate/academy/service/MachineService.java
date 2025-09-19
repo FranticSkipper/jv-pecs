@@ -8,5 +8,5 @@ public interface MachineService<T extends Machine> {
 
     void fill(List<? super T> machines, T value);
 
-    void startWorking(List<? extends Machine> machines);
+    void startWorking(List<? extends T> machines);
 }
